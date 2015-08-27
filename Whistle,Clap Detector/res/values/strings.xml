@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yoo-hoo!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_file_search">FileSearch</string>
+    <string name="activity_FileExplore">FileExplore</string>
+    <string name="empty_directory">Empty Directory</string>
+    <string name="storage_removed">Storage was removed or unmounted.</string>
+    <string name="choose_file">Select a file</string>
+    <string name="error_selecting_file">Error selecting File</string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="title_activity_demo">Tutorial</string>
+    <string name="sAudioFile">The Select Audio File button.\nUsed to navigate through your device\'s Music library, SD Card, Internal memory or File Explorer to select a file.\nKeep in mind, though you can browse and choose any file, the app will only allow a valid audio file. The list includes mp3, m4a, flac, ogg, wav and aac.</string>
+    <string name="playFile">The Play button.\nYou can use this button to test the music file selected and see if its what you want playing every time you clap or whistle!</string>
+    <string name="sample">The Claps/Whistle Switch.\n\nIf you pick \"2 Claps\" the app will listen for a quick, loud double clap. The clap has to be louder than the ambient sound for the app to hear it. The graph shows the target volume when listening.\nPersonally, I prefer the whistles, cause you never know when a door slam can sound like a clap!\n\nIf you pick \"Whistle\" the app is listening for whistles in the 500 to 1350 Hz range, simplified here as 23 to 63. Has a greater range than clap mode.</string>
+    <string name="sBar">*The Regular Mode:\nGives you control of when the app is listening with the Start/Stop Button. A permanent notification will be displayed only while listening in this mode.\nThe app uses the microphone and this may interfere with other apps requiring it. This conflict does not happen in idle mode.\n\n*The Idle Mode (Recommended):\nJust pick this mode, close the app and forget about it. It only listens for claps or whistles when you really need it, when the phone is asleep and not being used. Just remember to disable any settings that prevent your phone from going into standby mode like screensavers, etc. Shows a removable notification.\n**To turn off this mode, just slide to Regular**\nSuggest closing any ads to save RAM, The app may wait upto 1 minute to restart listening once asleep.</string>
+    <string name="stop">The Start/Stop Button.(Only available in Regular Mode)\n\nThe \"Start Listening\" Button makes the app start listening and a notification is shown. Once the app is listening, you can even close the app, it will continue listening in the background as long as the whistle notification shows.\nWhen the app hears a whistle or double clap, it will vibrate and play your music file.\n\nThe \"Stop Music\" button  is shown when the music is playing. Stopping the music does not stop the app listening.\n\nThe \"Stop Listening\" button stops the app from listening and cancels the notification.</string>
+    <!--<string name="bottom_banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="stoplistening_interstitial">ca-app-pub-3940256099942544/6300978111</string>
+    -->
+    <string name="bottom_banner">ca-app-pub-2197127543758569/8754205939</string>
+    <string name="stoplistening_interstitial">ca-app-pub-2197127543758569/5661138733</string>
+    
+    <string name="switch_ON">Whistle</string>
+    <string name="switch_OFF">2 Claps</string>
+    <string name="switch_MODEON">Idle</string>
+    <string name="switch_MODEOFF">Regular</string>
+    <string name="title_activity_exit">ExitActivity</string>
+
+</resources>

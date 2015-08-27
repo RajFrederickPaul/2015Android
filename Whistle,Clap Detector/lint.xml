@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi" severity="ignore">
+        <ignore path="src/com/experiment/yoo_hoo/ExitActivity.java" />
+        <ignore path="src/com/experiment/yoo_hoo/OneService.java" />
+        <ignore path="src/com/yoo_hoo/ExitActivity.java" />
+    </issue>
+    <issue id="ShowToast">
+        <ignore path="src/com/experiment/yoo_hoo/MainActivity.java" />
+        <ignore path="src/com/yoo_hoo/MainActivity.java" />
+    </issue>
+</lint>

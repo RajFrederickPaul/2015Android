@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tutorialView"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tutorial_background"
+    android:drawableEnd="@drawable/tutorial_small"
+    android:ellipsize="marquee"
+    android:gravity="center"
+    android:lines="1"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:scrollHorizontally="true"
+    android:singleLine="true"
+    android:text="Tutorial   Tutorial"
+    android:textColor="#FFFFFF"
+        android:textSize="20sp"
+    android:textStyle="bold" 
+    android:focusable="true"
+            android:focusableInTouchMode="true"
+            >
+        <requestFocus android:focusable="true" android:focusableInTouchMode="true"
+            />
+    </TextView>
