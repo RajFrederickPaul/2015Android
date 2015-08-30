@@ -675,23 +675,3 @@ public class MainActivity extends Activity {
 		}
 	}
 }
-
-//
-//public void endApplication() {
-//	Intent intent = new Intent(Intent.ACTION_MAIN);
-//	intent.addCategory(Intent.CATEGORY_HOME);
-//	intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//	//		    startActivity(intent);
-//	//	    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-//	//	    intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-//	//	    intent.putExtra("EXIT", true);
-//	//	    startActivity(intent);
-//}
-
-//if(WTOrCF){
-//	MyService.isPlaying=false;
-//	MyService.initMusicPlayer();
-//}else{
-//	ClapService.isPlaying=false;
-//	ClapService.initMusicPlayer();
-//}
